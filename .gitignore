@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+*.log
+
+# Docker
+*.pid
+
+# Data
+data/documents/*
+data/vectordb/*
+data/uploads/*
+!data/documents/.gitkeep
+!data/vectordb/.gitkeep
+!data/uploads/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
